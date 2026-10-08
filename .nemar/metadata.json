@@ -1,0 +1,138 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Christoph Wiest": {
+      "orcid": "0000-0001-5728-3951",
+      "affiliations": [
+        {
+          "name": "Medical Research Council Brain Network Dynamics Unit, Nuffield Department of Clinical Neurosciences John Radcliffe Hospital, University of Oxford  Oxford United Kingdom"
+        }
+      ]
+    },
+    "Flavie Torrecillos": {
+      "orcid": "0000-0003-4484-9949",
+      "affiliations": [
+        {
+          "name": "Medical Research Council Brain Network Dynamics Unit, Nuffield Department of Clinical Neurosciences John Radcliffe Hospital, University of Oxford  Oxford United Kingdom"
+        }
+      ]
+    },
+    "Francesca Morgante": {
+      "orcid": "0000-0002-9834-3639",
+      "affiliations": [
+        {
+          "name": "Neurosciences Research Centre Molecular and Clinical Sciences Institute, St. George's, University of London  London United Kingdom"
+        }
+      ]
+    },
+    "Erlick Pereira": {},
+    "Huiling Tan": {
+      "orcid": "0000-0001-8038-3029",
+      "affiliations": [
+        {
+          "name": "Medical Research Council Brain Network Dynamics Unit, Nuffield Department of Clinical Neurosciences John Radcliffe Hospital, University of Oxford  Oxford United Kingdom"
+        }
+      ]
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5287/bodleian:qrnqjnpv7",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1002/mds.29302",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000443",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000443",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Institute for Health Research (NIHR) Oxford Biomedical Research Centre"
+    },
+    {
+      "funder_name": "Medical Research Council UK",
+      "award_number": "MC_UU_00003/2"
+    },
+    {
+      "funder_name": "Medical Research Council UK",
+      "award_number": "MR/P012272/1"
+    },
+    {
+      "funder_name": "Medical Research Council UK",
+      "award_number": "MR/V00655X/1"
+    },
+    {
+      "funder_name": "NIHR Oxford Biomedical Research Centre"
+    },
+    {
+      "funder_name": "Rosetrees Trust",
+      "award_number": "PGL21/10115"
+    }
+  ],
+  "title": "Subthalamic and thalamic local field potentials during DBS in cervical dystonia (Wiest et al. 2022; derivative, DC-removed release at 4096 Hz)",
+  "license": "CC-BY-SA-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "31.49 GB (205 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".mat",
+    ".py",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "Local field potential recordings from externalised octopolar DBS leads in 7 patients (12 hemispheres) with isolated idiopathic cervical dystonia, spanning the subthalamic nucleus, rostral zona incerta and ventrolateral thalamus. Recordings were made 4-7 days after surgery, off medication, during DBS ramps and single-pulse stimulation, with scalp EEG, neck EMG and accelerometers in some patients. This derivative BIDS release (4096 Hz, BrainVision format) supports analysis of stimulation-induced power suppression, evoked resonant neural activity and finely tuned gamma.",
+  "methods_description": "Recordings used a TMSi Saga amplifier at 4096 Hz with Boston Scientific Vercise Standard leads, exported via Spike2 to MATLAB and repackaged to BrainVision float32. Tasks comprised continuous 130 Hz monopolar DBS with stepwise intensity increases, and single-pulse stimulation applied to each of 8 contact levels. Released signals had undocumented DC removal.",
+  "keywords": [
+    {
+      "term": "Dystonia"
+    },
+    {
+      "term": "Deep Brain Stimulation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D046690"
+    },
+    {
+      "term": "Local field potential"
+    },
+    {
+      "term": "Subthalamic Nucleus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020531"
+    },
+    {
+      "term": "Thalamus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013788"
+    },
+    {
+      "term": "evoked resonant neural activity"
+    },
+    {
+      "term": "cervical dystonia"
+    }
+  ],
+  "source_hash": "fdb1fbce691f5bb5ee07301ce66f4acea3b6811508d35816e43797e3ac419246"
+}
