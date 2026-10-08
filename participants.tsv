@@ -1,0 +1,8 @@
+participant_id	release_id	age	sex	diagnosis	disease_duration	days_post_op	hemisphere_folders
+sub-01	P1	64	F	segmental dystonia: cervical dystonia, upper limb	28	4	Right
+sub-02	P2	49	F	cervical dystonia	6	4	Left,Right
+sub-03	P3	68	F	craniocervical dystonia	55	4	Left,Right
+sub-04	P4	59	F	cervical dystonia	5	5	Left,Right
+sub-05	P5	45	F	segmental dystonia: cervical dystonia, upper limb	25	7	Left
+sub-06	P6	52	M	cervical dystonia	8	7	Left,Right
+sub-07	P7	51	M	segmental dystonia: cervical dystonia, trunk	10	7	Left,Right

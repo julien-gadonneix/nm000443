@@ -1,0 +1,32 @@
+name	type	units	low_cutoff	high_cutoff	sampling_frequency	group	status	status_description	description
+L1	DBS	n/a	n/a	n/a	4096.0	left lead	good	n/a	left DBS lead (Boston Scientific Vercise 2201, 8 ring contacts), contact level 1 (1 = most inferior), unipolar with common mode rejection (README)
+L2	DBS	n/a	n/a	n/a	4096.0	left lead	good	n/a	left DBS lead (Boston Scientific Vercise 2201, 8 ring contacts), contact level 2 (1 = most inferior), unipolar with common mode rejection (README)
+L3	DBS	n/a	n/a	n/a	4096.0	left lead	good	n/a	left DBS lead (Boston Scientific Vercise 2201, 8 ring contacts), contact level 3 (1 = most inferior), unipolar with common mode rejection (README)
+L4	DBS	n/a	n/a	n/a	4096.0	left lead	good	n/a	left DBS lead (Boston Scientific Vercise 2201, 8 ring contacts), contact level 4 (1 = most inferior), unipolar with common mode rejection (README)
+L5	DBS	n/a	n/a	n/a	4096.0	left lead	good	n/a	left DBS lead (Boston Scientific Vercise 2201, 8 ring contacts), contact level 5 (1 = most inferior), unipolar with common mode rejection (README)
+L6	DBS	n/a	n/a	n/a	4096.0	left lead	good	n/a	left DBS lead (Boston Scientific Vercise 2201, 8 ring contacts), contact level 6 (1 = most inferior), unipolar with common mode rejection (README)
+L7	DBS	n/a	n/a	n/a	4096.0	left lead	good	n/a	left DBS lead (Boston Scientific Vercise 2201, 8 ring contacts), contact level 7 (1 = most inferior), unipolar with common mode rejection (README)
+L8	DBS	n/a	n/a	n/a	4096.0	left lead	good	n/a	left DBS lead (Boston Scientific Vercise 2201, 8 ring contacts), contact level 8 (1 = most inferior), unipolar with common mode rejection (README)
+R1	DBS	n/a	n/a	n/a	4096.0	right lead	good	n/a	right DBS lead (Boston Scientific Vercise 2201, 8 ring contacts), contact level 1 (1 = most inferior), unipolar with common mode rejection (README)
+R2	DBS	n/a	n/a	n/a	4096.0	right lead	good	n/a	right DBS lead (Boston Scientific Vercise 2201, 8 ring contacts), contact level 2 (1 = most inferior), unipolar with common mode rejection (README)
+R3	DBS	n/a	n/a	n/a	4096.0	right lead	good	n/a	right DBS lead (Boston Scientific Vercise 2201, 8 ring contacts), contact level 3 (1 = most inferior), unipolar with common mode rejection (README)
+R4	DBS	n/a	n/a	n/a	4096.0	right lead	good	n/a	right DBS lead (Boston Scientific Vercise 2201, 8 ring contacts), contact level 4 (1 = most inferior), unipolar with common mode rejection (README)
+R5	DBS	n/a	n/a	n/a	4096.0	right lead	good	n/a	right DBS lead (Boston Scientific Vercise 2201, 8 ring contacts), contact level 5 (1 = most inferior), unipolar with common mode rejection (README)
+R6	DBS	n/a	n/a	n/a	4096.0	right lead	good	n/a	right DBS lead (Boston Scientific Vercise 2201, 8 ring contacts), contact level 6 (1 = most inferior), unipolar with common mode rejection (README)
+R7	DBS	n/a	n/a	n/a	4096.0	right lead	good	n/a	right DBS lead (Boston Scientific Vercise 2201, 8 ring contacts), contact level 7 (1 = most inferior), unipolar with common mode rejection (README)
+R8	DBS	n/a	n/a	n/a	4096.0	right lead	good	n/a	right DBS lead (Boston Scientific Vercise 2201, 8 ring contacts), contact level 8 (1 = most inferior), unipolar with common mode rejection (README)
+Cz	EEG	n/a	n/a	n/a	4096.0	n/a	good	n/a	scalp EEG electrode Cz, common mode rejection (README)
+C3	EEG	n/a	n/a	n/a	4096.0	n/a	good	n/a	scalp EEG electrode C3, common mode rejection (README)
+C4	EEG	n/a	n/a	n/a	4096.0	n/a	good	n/a	scalp EEG electrode C4, common mode rejection (README)
+CPz	EEG	n/a	n/a	n/a	4096.0	n/a	good	n/a	scalp EEG electrode CPz, common mode rejection (README)
+CP3	EEG	n/a	n/a	n/a	4096.0	n/a	good	n/a	scalp EEG electrode CP3, common mode rejection (README)
+CP4	EEG	n/a	n/a	n/a	4096.0	n/a	good	n/a	scalp EEG electrode CP4, common mode rejection (README)
+R46	DBS	n/a	n/a	n/a	4096.0	right lead	good	n/a	right DBS lead, bipolar recording between contact levels 4 and 6 adjacent to the stimulated contact (README: 'label e.g. L13 if L2 was stimulated')
+F-L1	MISC	n/a	n/a	n/a	4096.0	n/a	good	n/a	release channel 'F-L1', not described in the release README
+F-L1_2	MISC	n/a	n/a	n/a	4096.0	n/a	good	n/a	release channel 'F-L1', not described in the release README (duplicate release label 'F-L1'; occurrence renamed F-L1_2)
+S-L1	MISC	n/a	n/a	n/a	4096.0	n/a	good	n/a	release channel 'S-L1', not described in the release README
+S-L1_2	MISC	n/a	n/a	n/a	4096.0	n/a	good	n/a	release channel 'S-L1', not described in the release README (duplicate release label 'S-L1'; occurrence renamed S-L1_2)
+Am1	MISC	n/a	n/a	n/a	4096.0	n/a	good	n/a	stimulation current: README 'The time stamps and intensity of the applied stimulation currents are saved in channel Cur1/Am1' (release label Am1)
+Am2	MISC	n/a	n/a	n/a	4096.0	n/a	good	n/a	stimulation current: README 'The time stamps and intensity of the applied stimulation currents are saved in channel Cur1/Am1' (release label Am2)
+Rs1	MISC	n/a	n/a	n/a	4096.0	n/a	good	n/a	release channel 'Rs1', not described in the release README
+Rs2	MISC	n/a	n/a	n/a	4096.0	n/a	good	n/a	release channel 'Rs2', not described in the release README

@@ -1,0 +1,3 @@
+filename	acq_time	source_file	release_label	stimulated_hemisphere_folder	stimulated_contact_level
+ieeg/sub-01_task-dbsramp_acq-R2_ieeg.vhdr	n/a	P1,P2/Participant1_Right/P1_R2_Testing.mat	Testing	Right	2
+ieeg/sub-01_task-dbsramp_acq-R3_ieeg.vhdr	n/a	P1,P2/Participant1_Right/P1_R3_Testing.mat	Testing	Right	3

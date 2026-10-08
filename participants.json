@@ -1,0 +1,30 @@
+{
+  "release_id": {
+    "Description": "Participant number in the release (folders Participant<k>_/Patient<k>_)"
+  },
+  "age": {
+    "Description": "Age in years (Wiest et al. 2022 Table 1)",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Sex (Wiest et al. 2022 Table 1, 'Gender (m/f)')",
+    "Levels": {
+      "F": "female",
+      "M": "male"
+    }
+  },
+  "diagnosis": {
+    "Description": "Diagnosis (Wiest et al. 2022 Table 1; CD = cervical dystonia)"
+  },
+  "disease_duration": {
+    "Description": "Disease duration (Wiest et al. 2022 Table 1)",
+    "Units": "year"
+  },
+  "days_post_op": {
+    "Description": "Time of recording after surgery (Wiest et al. 2022 Table 1)",
+    "Units": "day"
+  },
+  "hemisphere_folders": {
+    "Description": "Release hemisphere folders present for this participant (side whose lead was stimulated)"
+  }
+}

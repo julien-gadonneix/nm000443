@@ -1,0 +1,18 @@
+{
+  "SpatialReference": "none: no electrode coordinates are included in the source release (x, y, z = n/a); Wiest et al. 2022 Fig. 1A shows Lead-DBS reconstructions but they are not released",
+  "hemisphere": {
+    "Description": "Hemisphere of the lead (L/R, from the release channel label)"
+  },
+  "contact_level": {
+    "Description": "Contact level 1-8 (1 = most inferior, Wiest et al. 2022 naming C1-C8)"
+  },
+  "region_stated": {
+    "Description": "Target structures stated by the source for the lead as a whole"
+  },
+  "manufacturer": {
+    "Description": "Lead manufacturer (Wiest et al. 2022)"
+  },
+  "model": {
+    "Description": "Lead model (Wiest et al. 2022)"
+  }
+}

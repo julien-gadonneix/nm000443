@@ -1,0 +1,2 @@
+filename	acq_time	source_file	release_label	stimulated_hemisphere_folder	stimulated_contact_level
+ieeg/sub-05_task-singlepulse_acq-left_ieeg.vhdr	n/a	P5,P6,P7/Patient5_Left/P5_Left_Single.mat	Single	Left	n/a

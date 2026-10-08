@@ -1,0 +1,29 @@
+{
+  "TaskName": "dbsramp",
+  "TaskDescription": "Continuous 130 Hz monopolar DBS of the right lead at contact level 2 with the intensity increased in 0.5 mA steps from 0.5 mA up to 4.5 mA or the side-effect threshold (README; Wiest et al. 2022: blocks of ~47 s separated by ~28 s rest; in patient 2 also 100/130/150/180 Hz for 2 min each at one contact). LFPs from the adjacent levels recorded bipolar, all other contacts unipolar. Release file label 'Testing'.",
+  "SamplingFrequency": 4096.0,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": {
+    "DCRemoval": {
+      "Description": "Undocumented DC removal / high-pass before release: every released channel, including the head accelerometers, is free of DC offset (no gravity component; 10 s window means small compared with the channel SD; DC-check Jobs ieeg-b3w12-dyst-dc-1008124055 and ieeg-b3w12-dyst-dc2-1008124329), whereas the TMSi Saga is DC-coupled; the Spike2 files came from a 'processed_data/SMR' folder. Cutoff not stated by the source. The sampling rate (4096 Hz) is the acquisition rate (Wiest et al. 2022)."
+    }
+  },
+  "HardwareFilters": "n/a",
+  "Manufacturer": "TMSi",
+  "ManufacturersModelName": "Saga",
+  "RecordingSoftware": "custom software written in C (Wiest et al. 2022); exported to Spike2 .smr and then to MATLAB (SmrData)",
+  "iEEGReference": "unipolar contacts and EEG: common mode rejection (README); contacts adjacent to the stimulated level: bipolar (labels like L13)",
+  "iEEGPlacementScheme": "bilateral externalised octopolar DBS lead(s) spanning STN (inferior contacts), rostral zona incerta and ventrolateral thalamus (superior contacts); recorded 4-7 days after surgery off anti-dystonic medication (Wiest et al. 2022)",
+  "ElectrodeManufacturer": "Boston Scientific",
+  "ElectrodeManufacturersModelName": "Vercise Standard Lead 2201 (non-directional, 8 ring contacts)",
+  "RecordingType": "continuous",
+  "RecordingDuration": 496.4006,
+  "DBSChannelCount": 16,
+  "EEGChannelCount": 6,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 11,
+  "ECOGChannelCount": 0,
+  "SEEGChannelCount": 0,
+  "ElectricalStimulation": true,
+  "ElectricalStimulationParameters": "monopolar 130 Hz DBS at right contact level 2, intensity ramp 0.5-4.5 mA in 0.5 mA steps (README; Wiest et al. 2022); timing and intensity in the Cur/Am channels"
+}

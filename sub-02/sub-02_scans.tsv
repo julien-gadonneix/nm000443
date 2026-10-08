@@ -1,0 +1,13 @@
+filename	acq_time	source_file	release_label	stimulated_hemisphere_folder	stimulated_contact_level
+ieeg/sub-02_task-dbsramp_acq-L2_ieeg.vhdr	n/a	P1,P2/Participant2_Left/P2_L2_DBS.mat	DBS	Left	2
+ieeg/sub-02_task-dbsramp_acq-L3_ieeg.vhdr	n/a	P1,P2/Participant2_Left/P2_L3_DBS.mat	DBS	Left	3
+ieeg/sub-02_task-dbsramp_acq-L4_ieeg.vhdr	n/a	P1,P2/Participant2_Left/P2_L4_DBS.mat	DBS	Left	4
+ieeg/sub-02_task-dbsramp_acq-L5_ieeg.vhdr	n/a	P1,P2/Participant2_Left/P2_L5_DBS.mat	DBS	Left	5
+ieeg/sub-02_task-dbsramp_acq-L6_ieeg.vhdr	n/a	P1,P2/Participant2_Left/P2_L6_DBS.mat	DBS	Left	6
+ieeg/sub-02_task-dbsramp_acq-L7_ieeg.vhdr	n/a	P1,P2/Participant2_Left/P2_L7_DBS.mat	DBS	Left	7
+ieeg/sub-02_task-dbsramp_acq-R2_ieeg.vhdr	n/a	P1,P2/Participant2_Right/P2_R2_DBS.mat	DBS	Right	2
+ieeg/sub-02_task-dbsramp_acq-R3_ieeg.vhdr	n/a	P1,P2/Participant2_Right/P2_R3_DBS.mat	DBS	Right	3
+ieeg/sub-02_task-dbsramp_acq-R4_ieeg.vhdr	n/a	P1,P2/Participant2_Right/P2_R4_DBS.mat	DBS	Right	4
+ieeg/sub-02_task-dbsramp_acq-R5_ieeg.vhdr	n/a	P1,P2/Participant2_Right/P2_R5_DBS.mat	DBS	Right	5
+ieeg/sub-02_task-dbsramp_acq-R6_ieeg.vhdr	n/a	P1,P2/Participant2_Right/P2_R6_DBS.mat	DBS	Right	6
+ieeg/sub-02_task-dbsramp_acq-R7_ieeg.vhdr	n/a	P1,P2/Participant2_Right/P2_R7_DBS.mat	DBS	Right	7

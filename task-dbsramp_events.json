@@ -1,0 +1,11 @@
+{
+  "trial_type": {
+    "Description": "Spike2 event channel of the release (SmrData.EvTits/EvData)",
+    "Levels": {
+      "spike2_Mark": "time stamp of the Spike2 event channel 'Mark' (not described further in the release)"
+    }
+  },
+  "sample": {
+    "Description": "0-based sample index at 4096 Hz"
+  }
+}

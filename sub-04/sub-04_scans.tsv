@@ -1,0 +1,13 @@
+filename	acq_time	source_file	release_label	stimulated_hemisphere_folder	stimulated_contact_level
+ieeg/sub-04_task-dbsramp_acq-L2_ieeg.vhdr	n/a	P3,P4/Participant4_Left/P4_L2_Testing.mat	Testing	Left	2
+ieeg/sub-04_task-dbsramp_acq-L3_ieeg.vhdr	n/a	P3,P4/Participant4_Left/P4_L3_Testing.mat	Testing	Left	3
+ieeg/sub-04_task-dbsramp_acq-L4_ieeg.vhdr	n/a	P3,P4/Participant4_Left/P4_L4_Testing.mat	Testing	Left	4
+ieeg/sub-04_task-dbsramp_acq-L5_ieeg.vhdr	n/a	P3,P4/Participant4_Left/P4_L5_Testing.mat	Testing	Left	5
+ieeg/sub-04_task-dbsramp_acq-L6_ieeg.vhdr	n/a	P3,P4/Participant4_Left/P4_L6_Testing.mat	Testing	Left	6
+ieeg/sub-04_task-dbsramp_acq-L7_ieeg.vhdr	n/a	P3,P4/Participant4_Left/P4_L7_Testing.mat	Testing	Left	7
+ieeg/sub-04_task-dbsramp_acq-R2_ieeg.vhdr	n/a	P3,P4/Participant4_Right/P4_R2_Testing.mat	Testing	Right	2
+ieeg/sub-04_task-dbsramp_acq-R3_ieeg.vhdr	n/a	P3,P4/Participant4_Right/P4_R3_Testing.mat	Testing	Right	3
+ieeg/sub-04_task-dbsramp_acq-R4_ieeg.vhdr	n/a	P3,P4/Participant4_Right/P4_R4_Testing.mat	Testing	Right	4
+ieeg/sub-04_task-dbsramp_acq-R5_ieeg.vhdr	n/a	P3,P4/Participant4_Right/P4_R5_Testing.mat	Testing	Right	5
+ieeg/sub-04_task-dbsramp_acq-R6_ieeg.vhdr	n/a	P3,P4/Participant4_Right/P4_R6_Testing.mat	Testing	Right	6
+ieeg/sub-04_task-dbsramp_acq-R7_ieeg.vhdr	n/a	P3,P4/Participant4_Right/P4_R7_Testing.mat	Testing	Right	7
