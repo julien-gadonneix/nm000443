@@ -52,5 +52,7 @@
       "Name": "b3w12_convert_dyst.py",
       "Description": "Repackaging of the Spike2/MATLAB exports to BrainVision float32 with values unchanged (exact); Spike2 Mark events; code in code/."
     }
-  ]
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000443",
+  "Version": "1.0.0"
 }
