@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Subthalamic and thalamic local field potentials during DBS in cervical dystonia (Wiest et al. 2022; derivative, DC-removed release at 4096 Hz)",
+  "description": "Local field potentials recorded from externalised octopolar deep brain stimulation leads in 7 patients (12 hemispheres) with isolated idiopathic cervical dystonia. Leads span the subthalamic nucleus, rostral zona incerta and ventrolateral thalamus. Recordings were made 4-7 days after surgery, off medication, during DBS ramps and single-pulse stimulation, with scalp EEG, neck EMG and accelerometry in some patients. This is a derivative BIDS release of the Oxford dataset, sampled at 4096 Hz, in which the authors' undocumented DC removal has been applied.",
+  "methods_description": "Recordings used a TMSi Saga amplifier at 4096 Hz with custom acquisition software, exported via Spike2 to MATLAB and repackaged to BrainVision float32 with values unchanged. Boston Scientific Vercise Standard leads (8 ring contacts) were used. Tasks were continuous 130 Hz monopolar DBS with intensity ramped in 0.5 mA steps, and 25 single pulses applied at each of the 8 contact levels. Contacts adjacent to the stimulated level were recorded bipolar, while the other contacts and the EEG were recorded unipolar.",
+  "license": "CC-BY-SA-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Christoph Wiest": {
       "orcid": "0000-0001-5728-3951",
@@ -36,6 +41,39 @@
       ]
     }
   },
+  "keywords": [
+    {
+      "term": "Deep Brain Stimulation",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "Dystonia",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "Subthalamic Nucleus",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "Thalamus",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "local field potential"
+    },
+    {
+      "term": "evoked resonant neural activity"
+    },
+    {
+      "term": "cervical dystonia"
+    },
+    {
+      "term": "zona incerta"
+    },
+    {
+      "term": "single-pulse stimulation"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5287/bodleian:qrnqjnpv7",
@@ -45,7 +83,7 @@
     {
       "identifier": "10.1002/mds.29302",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000443",
@@ -82,14 +120,11 @@
       "award_number": "PGL21/10115"
     }
   ],
-  "title": "Subthalamic and thalamic local field potentials during DBS in cervical dystonia (Wiest et al. 2022; derivative, DC-removed release at 4096 Hz)",
-  "license": "CC-BY-SA-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "31.49 GB (205 files)"
   ],
@@ -97,42 +132,13 @@
     ".eeg",
     ".json",
     ".mat",
+    ".md",
     ".py",
     ".tsv",
     ".txt",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "Local field potential recordings from externalised octopolar DBS leads in 7 patients (12 hemispheres) with isolated idiopathic cervical dystonia, spanning the subthalamic nucleus, rostral zona incerta and ventrolateral thalamus. Recordings were made 4-7 days after surgery, off medication, during DBS ramps and single-pulse stimulation, with scalp EEG, neck EMG and accelerometers in some patients. This derivative BIDS release (4096 Hz, BrainVision format) supports analysis of stimulation-induced power suppression, evoked resonant neural activity and finely tuned gamma.",
-  "methods_description": "Recordings used a TMSi Saga amplifier at 4096 Hz with Boston Scientific Vercise Standard leads, exported via Spike2 to MATLAB and repackaged to BrainVision float32. Tasks comprised continuous 130 Hz monopolar DBS with stepwise intensity increases, and single-pulse stimulation applied to each of 8 contact levels. Released signals had undocumented DC removal.",
-  "keywords": [
-    {
-      "term": "Dystonia"
-    },
-    {
-      "term": "Deep Brain Stimulation",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D046690"
-    },
-    {
-      "term": "Local field potential"
-    },
-    {
-      "term": "Subthalamic Nucleus",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D020531"
-    },
-    {
-      "term": "Thalamus",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D013788"
-    },
-    {
-      "term": "evoked resonant neural activity"
-    },
-    {
-      "term": "cervical dystonia"
-    }
-  ],
-  "source_hash": "fdb1fbce691f5bb5ee07301ce66f4acea3b6811508d35816e43797e3ac419246"
+  "source_hash": "15bb117804ba4679547a878458f2adafc8c688116701a05d8ca14f5652a29ec0"
 }
