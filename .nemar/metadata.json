@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Subthalamic and thalamic local field potentials during DBS in cervical dystonia, DC-removed derivative at 4096 Hz",
-  "description": "Local field potential recordings from externalised octopolar deep brain stimulation leads in seven patients with isolated cervical dystonia, covering 12 hemispheres spanning the subthalamic nucleus, zona incerta and ventrolateral thalamus. Recordings were made 4-7 days after surgery, off medication, during continuous 130 Hz stimulation with increasing intensity (one patient also had 100, 150 and 180 Hz tested) and during single-pulse stimulation. Scalp EEG, neck EMG and accelerometer signals were recorded in some patients. This is a BIDS derivative of the Oxford release, supporting analyses of broadband power suppression, evoked resonant neural activity and finely tuned gamma.",
-  "methods_description": "Signals were acquired with a TMSi Saga amplifier at 4096 Hz using Boston Scientific Vercise Standard 8-contact leads. Contacts adjacent to the stimulated level were recorded bipolar, and the other contacts and the EEG were recorded unipolar. Tasks were a DBS amplitude ramp, single-pulse stimulation on each contact level, and one paired-pulse recording. The Spike2/MATLAB exports were repackaged to BrainVision float32 with values unchanged.",
+  "description": "Local field potentials recorded from externalised octopolar DBS leads in 7 patients with isolated cervical dystonia (12 hemispheres), spanning the subthalamic nucleus, rostral zona incerta and ventrolateral thalamus. Recordings were made 4-7 days after surgery, off medication, during stimulation ramps and single-pulse protocols, with scalp EEG, neck EMG and accelerometry in some patients. This derivative release at 4096 Hz, repackaged to BrainVision format, has DC offset removed by the original authors.",
+  "methods_description": "Recordings used a TMSi Saga amplifier at 4096 Hz with Boston Scientific Vercise Standard leads. Tasks were continuous 130 Hz monopolar DBS with stepwise intensity increases, single-pulse stimulation at each contact level, and one paired-pulse recording. Spike2/MATLAB exports were converted to BrainVision float32 with values unchanged.",
   "license": "CC-BY-SA-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -61,24 +61,15 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D020531"
     },
     {
-      "term": "evoked resonant neural activity"
-    },
-    {
       "term": "Thalamus",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D013788"
     },
     {
+      "term": "evoked resonant neural activity"
+    },
+    {
       "term": "EEG"
-    },
-    {
-      "term": "cervical dystonia"
-    },
-    {
-      "term": "zona incerta"
-    },
-    {
-      "term": "single-pulse stimulation"
     }
   ],
   "related_identifiers": [
@@ -118,6 +109,9 @@
     {
       "funder_name": "Medical Research Council UK",
       "award_number": "MR/V00655X/1"
+    },
+    {
+      "funder_name": "NIHR Oxford Biomedical Research Centre"
     },
     {
       "funder_name": "Rosetrees Trust",
