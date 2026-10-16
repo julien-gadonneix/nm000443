@@ -1,2 +1,5 @@
+1.0.2 2026-10-16
+  - The publication-year attribution was omitted because the reviewed README and cited article years conflict. Update generated metadata title and source hash.
+
 1.0.0 2026-10-08
   - Repackaging of Cambium doi:10.5287/bodleian:qrnqjnpv7 for NEMAR.
