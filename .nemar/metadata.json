@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Wiest-2023-subthalamic-10.1002/mds.29302",
+  "title": "Subthalamic and thalamic local field potentials during DBS in cervical dystonia, DC-removed derivative at 4096 Hz",
   "description": "Local field potential recordings from externalised octopolar deep brain stimulation leads in seven patients with isolated cervical dystonia, covering 12 hemispheres spanning the subthalamic nucleus, zona incerta and ventrolateral thalamus. Recordings were made 4-7 days after surgery, off medication, during continuous 130 Hz stimulation with increasing intensity (one patient also had 100, 150 and 180 Hz tested) and during single-pulse stimulation. Scalp EEG, neck EMG and accelerometer signals were recorded in some patients. This is a BIDS derivative of the Oxford release, supporting analyses of broadband power suppression, evoked resonant neural activity and finely tuned gamma.",
   "methods_description": "Signals were acquired with a TMSi Saga amplifier at 4096 Hz using Boston Scientific Vercise Standard 8-contact leads. Contacts adjacent to the stimulated level were recorded bipolar, and the other contacts and the EEG were recorded unipolar. Tasks were a DBS amplitude ramp, single-pulse stimulation on each contact level, and one paired-pulse recording. The Spike2/MATLAB exports were repackaged to BrainVision float32 with values unchanged.",
   "license": "CC-BY-SA-4.0",
@@ -144,5 +144,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "ba937818b31c826edd53a5b9982ac8a6c1f43d9c57b921ca15c8130ee16c0928"
+  "source_hash": "13595608418a28125f3aa82a4e7b8863f6b8c148fc0468af4b8b0bb90e50fea9"
 }
