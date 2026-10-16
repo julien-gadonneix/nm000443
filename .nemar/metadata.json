@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Subthalamic and thalamic local field potentials during DBS in cervical dystonia (Wiest et al. 2022; derivative, DC-removed release at 4096 Hz)",
-  "description": "Local field potentials recorded from externalised octopolar deep brain stimulation leads in 7 patients (12 hemispheres) with isolated idiopathic cervical dystonia. Leads span the subthalamic nucleus, rostral zona incerta and ventrolateral thalamus. Recordings were made 4-7 days after surgery, off medication, during DBS ramps and single-pulse stimulation, with scalp EEG, neck EMG and accelerometry in some patients. This is a derivative BIDS release of the Oxford dataset, sampled at 4096 Hz, in which the authors' undocumented DC removal has been applied.",
-  "methods_description": "Recordings used a TMSi Saga amplifier at 4096 Hz with custom acquisition software, exported via Spike2 to MATLAB and repackaged to BrainVision float32 with values unchanged. Boston Scientific Vercise Standard leads (8 ring contacts) were used. Tasks were continuous 130 Hz monopolar DBS with intensity ramped in 0.5 mA steps, and 25 single pulses applied at each of the 8 contact levels. Contacts adjacent to the stimulated level were recorded bipolar, while the other contacts and the EEG were recorded unipolar.",
+  "title": "Wiest-2023-subthalamic-10.1002/mds.29302",
+  "description": "Local field potential recordings from externalised octopolar deep brain stimulation leads in seven patients with isolated cervical dystonia, covering 12 hemispheres spanning the subthalamic nucleus, zona incerta and ventrolateral thalamus. Recordings were made 4-7 days after surgery, off medication, during continuous 130 Hz stimulation with increasing intensity (one patient also had 100, 150 and 180 Hz tested) and during single-pulse stimulation. Scalp EEG, neck EMG and accelerometer signals were recorded in some patients. This is a BIDS derivative of the Oxford release, supporting analyses of broadband power suppression, evoked resonant neural activity and finely tuned gamma.",
+  "methods_description": "Signals were acquired with a TMSi Saga amplifier at 4096 Hz using Boston Scientific Vercise Standard 8-contact leads. Contacts adjacent to the stimulated level were recorded bipolar, and the other contacts and the EEG were recorded unipolar. Tasks were a DBS amplitude ramp, single-pulse stimulation on each contact level, and one paired-pulse recording. The Spike2/MATLAB exports were repackaged to BrainVision float32 with values unchanged.",
   "license": "CC-BY-SA-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -43,26 +43,33 @@
   },
   "keywords": [
     {
-      "term": "Deep Brain Stimulation",
-      "subject_scheme": "MeSH"
-    },
-    {
-      "term": "Dystonia",
-      "subject_scheme": "MeSH"
-    },
-    {
-      "term": "Subthalamic Nucleus",
-      "subject_scheme": "MeSH"
-    },
-    {
-      "term": "Thalamus",
-      "subject_scheme": "MeSH"
-    },
-    {
       "term": "local field potential"
     },
     {
+      "term": "Deep Brain Stimulation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D046690"
+    },
+    {
+      "term": "Dystonia",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004421"
+    },
+    {
+      "term": "Subthalamic Nucleus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020531"
+    },
+    {
       "term": "evoked resonant neural activity"
+    },
+    {
+      "term": "Thalamus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013788"
+    },
+    {
+      "term": "EEG"
     },
     {
       "term": "cervical dystonia"
@@ -83,7 +90,7 @@
     {
       "identifier": "10.1002/mds.29302",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000443",
@@ -113,9 +120,6 @@
       "award_number": "MR/V00655X/1"
     },
     {
-      "funder_name": "NIHR Oxford Biomedical Research Centre"
-    },
-    {
       "funder_name": "Rosetrees Trust",
       "award_number": "PGL21/10115"
     }
@@ -140,5 +144,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "15bb117804ba4679547a878458f2adafc8c688116701a05d8ca14f5652a29ec0"
+  "source_hash": "ba937818b31c826edd53a5b9982ac8a6c1f43d9c57b921ca15c8130ee16c0928"
 }
