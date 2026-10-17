@@ -65,3 +65,12 @@ overwritten in place with the release file name and '[path removed]'. WvData (si
 
 ## Privacy
 No names or hospital numbers remain. Recording dates were only in the removed FilePath strings; scans.tsv acq_time is n/a.
+
+## Units when reading with MNE (added 2026-10-17, version 1.0.3)
+
+The release does not state the physical unit of the signal values, so the BrainVision headers and channels.tsv give
+the unit `n/a` (resolution 1) and the values are the release's numbers, unchanged. MNE and MNE-BIDS read a channel
+with unit `n/a` as volts with scale 1: `raw.get_data()` returns the stored numbers as they are, labelled V. If the
+numbers are microvolt-sized, anything that assumes volts (plot scalings, rejection thresholds, µV conversions) sees
+them 1e6 times too large. In the 2026-10-17 check the channels had a robust SD of about 6-14 in the runs read. No unit is assigned here because the source does not state one; treat the values as the
+release's numbers in an unknown unit.
