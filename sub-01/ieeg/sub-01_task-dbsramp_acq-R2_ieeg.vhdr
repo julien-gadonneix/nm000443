@@ -1,1 +1,49 @@
-/annex/objects/SHA256E-s1030--37a5f385e10a510f11c9a69a69557e24355a362d15a87db395a5a8e9b72f3195.vhdr
+Brain Vision Data Exchange Header File Version 1.0
+; b3w12_convert_dyst.py: SmrData.WvData of P1_R2_Testing.mat, values unchanged as float32 (unit not stated in the release)
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=sub-01_task-dbsramp_acq-R2_ieeg.eeg
+MarkerFile=sub-01_task-dbsramp_acq-R2_ieeg.vmrk
+DataFormat=BINARY
+DataOrientation=MULTIPLEXED
+NumberOfChannels=33
+SamplingInterval=244.140625
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+
+[Channel Infos]
+Ch1=L1,,1.0,µV
+Ch2=L2,,1.0,µV
+Ch3=L3,,1.0,µV
+Ch4=L4,,1.0,µV
+Ch5=L5,,1.0,µV
+Ch6=L6,,1.0,µV
+Ch7=L7,,1.0,µV
+Ch8=L8,,1.0,µV
+Ch9=R1,,1.0,µV
+Ch10=R3,,1.0,µV
+Ch11=R4,,1.0,µV
+Ch12=R5,,1.0,µV
+Ch13=R6,,1.0,µV
+Ch14=R7,,1.0,µV
+Ch15=R8,,1.0,µV
+Ch16=C3,,1.0,µV
+Ch17=Cz,,1.0,µV
+Ch18=C4,,1.0,µV
+Ch19=CP3,,1.0,µV
+Ch20=CPz,,1.0,µV
+Ch21=CP4,,1.0,µV
+Ch22=R13,,1.0,µV
+Ch23=AUX1,,1.0,n/a
+Ch24=AUX1_2,,1.0,n/a
+Ch25=AUX1_3,,1.0,n/a
+Ch26=F-L1,,1.0,n/a
+Ch27=F-L2,,1.0,n/a
+Ch28=S-L1,,1.0,n/a
+Ch29=S-L2,,1.0,n/a
+Ch30=Am1,,1.0,n/a
+Ch31=Am2,,1.0,n/a
+Ch32=Rs1,,1.0,n/a
+Ch33=Rs2,,1.0,n/a
