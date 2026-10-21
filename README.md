@@ -27,7 +27,7 @@ CC BY-SA 4.0 (no other licence file is in the zips). Copyright 2020-2022, Univer
 TMSi Saga amplifier, 4096 Hz, custom acquisition software (paper); exported via Spike2 to MATLAB (SmrData structs). Boston
 Scientific Vercise Standard Lead 2201 (non-directional, 8 ring contacts; level 1 most inferior). Contacts adjacent to the
 stimulated level are recorded bipolar (label e.g. L13 when L2 is stimulated); all other contacts and the EEG are unipolar with
-common mode rejection (README). The release does not state units, so channels.tsv lists units as n/a; values are unchanged.
+common mode rejection (README). The release does not state units; DBS channels are µV (see Units), the others n/a; values are unchanged.
 THIS IS A DERIVATIVE DATASET. The release README and the paper describe no filtering before release (the paper's 1 Hz
 high-pass and 50 Hz notch are later analysis steps), but every released channel, including the head accelerometers, is free of
 DC offset: there is no gravity component on the accelerometers, and 10 s window means are small compared with each channel's
@@ -65,3 +65,11 @@ overwritten in place with the release file name and '[path removed]'. WvData (si
 
 ## Privacy
 No names or hospital numbers remain. Recording dates were only in the removed FilePath strings; scans.tsv acq_time is n/a.
+
+## Units (1.0.3)
+DBS channels are µV in channels.tsv. Evidence: per-contact evoked-neural-activity amplitudes of the single-pulse recordings
+(25 pulses per contact level, peak to following trough, 700 Hz low-pass) reproduce Wiest et al. (2022) Fig. 4C-F, which gives
+them in µV: participant 6 left, stimulation of contact 3, contacts 1/2/4/5/6/7/8: 92/235/303/75/50/89/94 here vs about
+95/225/290/65/45/80/95 µV in the article; participants 6 right and 7 left/right agree likewise (median ratio about 1.0).
+The stimulation-intensity channels (Cur*/Am*) also store the article's 0.5-4.5 mA ramp as 500-4500 (µA). The BrainVision
+headers (.vhdr, annexed) still declare n/a, so MNE reads the stored numbers as volts until they are re-keyed.
