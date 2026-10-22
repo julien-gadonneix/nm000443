@@ -1,5 +1,5 @@
 1.0.3 2026-10-21
-  - channels.tsv: DBS channels of the 68 recordings declared µV (were n/a); evidence in README, Units. .vhdr headers and data unchanged.
+  - README: Units section. Units stay n/a (no source states them); how MNE reads the values, and single-pulse ENA amplitudes vs Wiest et al. (2022) Fig. 4C-F as supporting evidence of a µV scale. Data unchanged.
 
 1.0.2 2026-10-16
   - The publication-year attribution was omitted because the reviewed README and cited article years conflict. Update generated metadata title and source hash.
